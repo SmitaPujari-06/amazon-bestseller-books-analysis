@@ -4,7 +4,7 @@ from utils import load_data
 
 df = load_data()
 
-st.title("📚 Category Analysis")
+st.title("📚 Categorywise analysis")
 
 category_counts = df["Category"].value_counts()
 
